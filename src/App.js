@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <a
-          className="App-link"
-          href="https://github.com/Maheeb/react_practice"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello world
-        </a>
-      </header>
-    </div>
-  );
-}
+ const own_function = ()=>{
+     return(
+         <div>
+             <h1 style={{textAlign:"center", color:"green"}}>I am  Maheeb Mohammad Azmaeen</h1>
+         </div>
+     )
+ }
 
-export default App;
+
+export default own_function;
